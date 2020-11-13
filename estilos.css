@@ -1,0 +1,195 @@
+
+.descuento{
+	background-color: yellow;
+	width: 35%;
+	height: 5%;
+   	line-height: 30px;
+   	text-align: center;
+   	margin-left: 35%;
+   	
+}
+
+.imagen15{
+	margin-left: 4%;
+	margin-top: 2%;
+	width: 25%;
+	height: 80%;
+}
+
+
+.Carrousel{
+    
+    margin-top: -50%;
+    margin-left: 16%;
+    float: left;
+    position: absolute;
+    width: -50%;
+}
+
+
+.listaDeslizada{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 800px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.listaDeElementos{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.deslizados{
+    position: relative;
+    width: 275px;
+    padding: 0 17px;
+    box-sizing: border-box;
+    height: 90%;
+    display: inline-block;
+}
+
+.deslizados a img{
+	position: relative;
+    height: 200px;
+    width: 100%;
+    transition: .2s ease-in-out;
+}
+
+
+.destacado{
+	position: absolute;
+	width: 50%;
+	margin-top: -5%;
+	margin-left: 15%;
+	z-index: 3;
+}
+.deslizados h4{
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	font-family: Arial;
+}
+.deslizados h3{
+	font-size: 22px;
+	font-family: Times New Roman;
+	margin-left: 40%;
+	margin-top:  -5%;
+}
+.deslizados h5{
+	font-size: 12px;
+	font-family: Arial;
+	margin-left: 62%;
+	margin-top: -16%;
+}
+.deslizados h6{
+	font-size: 11px;
+	font-family: Arial;
+	margin-left: 35%;
+	margin-top: -5%;
+	color: grey;
+
+}
+
+.numero{
+	 width: 150px;
+	 height: 40px;
+	 border-radius: 5px 5px;
+	 font-size: 22px;
+	 text-align: center;
+}
+
+.form{
+    display: none;
+}
+
+.deslizados:hover .form{
+	
+	display: block;
+    
+    
+}
+
+
+.EstiloBoton{
+	text-decoration: none;
+	font-family: Arial bold;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 6px 10px 6px;
+	border-radius: 5px;
+	transition:background .3s, color .3s;
+	-webkit-transition:background .3s, color .3s;
+	-moz-transition:background .3s, color .3s;
+	-o-transition:background .3s, color .3s;
+	color: #f4f5fb;
+	background:#b53603;
+	cursor: pointer;
+
+
+}
+
+.EstiloBoton:hover{
+	color: #080200;
+	background:#ef7442;
+}
+
+.verM{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: -9%; 
+    border-radius: 0px;
+    width: 7%;
+    z-index: 5;
+}
+
+.formatoBotonesGaleria{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: -20%;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    font-size: 22px;
+    font-weight: bold;
+    z-index: 4;
+}
+
+.botonPrevio{
+    
+    margin-left: -1%;  
+    left: 0px;  
+}
+.botonSiguiente{
+    margin-right: -2%;
+    right: 0px;
+}
+
+
+footer{
+  background-color: #03286A;
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 12px;
+  width: 100%;
+  height: 8%;
+  float: left;
+  color: white;
+  position:fixed; 
+  bottom:0; 
+  z-index:999999;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
